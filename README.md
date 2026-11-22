@@ -28,7 +28,7 @@ This is my personal portfolio website created as part of my Web Technology proje
 
 Add a screenshot of the portfolio homepage here:
 
-`portfolio-screenshot.png`
+![Portfolio Screenshot](portfolio-screenshot.png)
 
 ## Student Details
 
