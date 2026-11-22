@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeel Prajapati | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">&lt;/&gt; Jeel Prajapati</h2>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>Jeel Prajapati</span></h1>
+            <h2>Web Developer & Tech Enthusiast</h2>
+            <p>
+                I enjoy creating simple, creative and responsive websites
+                using modern web technologies.
+            </p>
+
+            <div class="hero-buttons">
+                <a class="btn" href="#projects">View My Projects</a>
+                <a class="btn outline" href="#contact">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="code-card">
+            <div class="code-top">● ● ●</div>
+            <pre>&lt;portfolio&gt;
+    Hello, World!
+    I'm Jeel
+&lt;/portfolio&gt;</pre>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">HTML</div>
+                <h3>HTML</h3>
+                <p>Semantic webpage structure</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">CSS</div>
+                <h3>CSS</h3>
+                <p>Responsive and attractive layouts</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">JS</div>
+                <h3>JavaScript</h3>
+                <p>Interactive web features</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">PY</div>
+                <h3>Python</h3>
+                <p>Programming and mini projects</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">GH</div>
+                <h3>GitHub</h3>
+                <p>Version control and repositories</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">RWD</div>
+                <h3>Responsive Design</h3>
+                <p>Mobile and laptop friendly pages</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-image calculator-image">
+                    <div class="mini-calculator">
+                        <strong>Calculator</strong>
+                        <div class="display">0</div>
+                        <div class="calc-row"><b>7</b><b>8</b><b>9</b><b>÷</b></div>
+                        <div class="calc-row"><b>4</b><b>5</b><b>6</b><b>×</b></div>
+                        <div class="calc-row"><b>1</b><b>2</b><b>3</b><b>+</b></div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Calculator App</h3>
+                    <p>A simple calculator project built using HTML, CSS and JavaScript.</p>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image treasure-image">
+                    <div class="treasure">🧰</div>
+                </div>
+                <div class="project-content">
+                    <h3>Treasure Hunt Game</h3>
+                    <p>A fun Python mini game where the player explores choices to find the treasure.</p>
+                    <span class="tag">Python</span>
+                    <span class="tag">Game</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <form id="contactForm" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formMessage" class="form-message"></p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Jeel Prajapati. All rights reserved.</p>
+    <p>Portfolio Project | Roll No. 267725</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
