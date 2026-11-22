@@ -309,6 +309,9 @@ header {
     margin: 3px;
     font-size: 0.8rem;
 }
+#contact {
+    scroll-margin-top: 90px;
+}
 
 .contact-section {
     max-width: 800px;
